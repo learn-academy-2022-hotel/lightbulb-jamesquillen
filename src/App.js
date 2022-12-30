@@ -1,16 +1,13 @@
 import React, { useState } from "react"
 import "./App.css"
-import LightSwitch from "./components/LightSwitch"
+import LightMaker from "./components/LightMaker"
 
 const App = () => {
 
   return (
     <>
       <h1>Lightbulb Challenge</h1>
-      <LightSwitch />
-      <LightSwitch />
-      <LightSwitch />
-      <LightSwitch />
+      <LightMaker />
     </>
   )
 }
