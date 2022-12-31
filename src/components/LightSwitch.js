@@ -13,9 +13,11 @@ const LightSwitch = () => {
   // Declare a function that checks to see the state of the switch. If the switch is off, change it to on. Otherwise, switch it to off.
   const flipSwitch = (e) => {
     setLightSwitchStatus(lightSwitchStatus === "off" ? "on" : "off");
+
   }
 
   return (
+
 
     // If the switch image clicked, run the flipSwitch function. If the lightSwitch state is "off", the switchOff image will be displayed along with the lightOff image. When the lighSwitch state changes to "on", both the switch and light images will change.
     <>
@@ -23,6 +25,7 @@ const LightSwitch = () => {
         <img src={lightSwitchStatus === "off" ? switchOff : switchOn} onClick={flipSwitch} />
         <img src={lightSwitchStatus === "off" ? lightOff : lightOn} />
       </div>
+
     </>
   )
 }

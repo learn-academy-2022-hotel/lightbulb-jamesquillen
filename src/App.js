@@ -12,6 +12,9 @@ const App = () => {
       <LightSwitch />
       <LightSwitch />
       <LightSwitch />
+      <LightSwitch />
+      <LightSwitch />
+      <LightSwitch />
     </>
   )
 }
