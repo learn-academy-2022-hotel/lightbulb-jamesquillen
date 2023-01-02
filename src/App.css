@@ -1,18 +1,22 @@
-img {
-  height: 200px;
-  width: 200px
-}
 
 h1, h2 {
   text-align: center;
 }
 
-.lightbulb {
-  display: flex;
-  border: 2px solid black;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
+button {
+  margin: 5px;
+  border-radius: 4px;
+  font-size: large;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  width: 200px
+}
+
+
